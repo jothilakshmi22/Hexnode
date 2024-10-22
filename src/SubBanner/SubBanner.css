@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.sub-banner-wrapper {
+  background-color: #1a1c2b;
+}
+.sub-banner {
+  display: flex;
+  padding: 30px 0px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.sub-banner-hover-effect {
+  transition: transform 0.3s ease;
+}
+.sub-banner-hover-effect:hover {
+  transform: translateY(-5px);
+}
+
+.sub-banner .pr {
+  padding-right: 80px;
+}
+
+.sub-banner .pl {
+  padding-left: 80px;
+}
+
+.sub-banner .sub-banner-line {
+  border-right: rgb(255 255 255 / 23%) solid 2px;
+}
+
+.sub-banner .px {
+  padding: 0px 80px;
+}
+
+.sub-banner h1 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.pt-serif {
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: baseline;
+  font-size: 500;
+}
+.pt-serif span {
+  font-size: 24px;
+  align-items: end;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .sub-banner .px {
+    padding: 0px 40px;
+  }
+
+  .sub-banner .pr {
+    padding-right: 40px;
+  }
+
+  .sub-banner .pl {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sub-banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .pt-serif {
+    justify-content: center;
+  }
+  .sub-banner .sub-banner-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 340px;
+  }
+
+  .pr {
+    padding-right: 0 !important;
+  }
+
+  .pl {
+    padding-left: 0 !important;
+  }
+  .px {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .sub-banner .sub-banner-line {
+    border-right: none;
+  }
+
+  .horizontal-line {
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    background: grey;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .sub-banner .sub-banner-content {
+    width: auto;
+  }
+}

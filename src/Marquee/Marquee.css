@@ -1,0 +1,47 @@
+.container-width {
+  width: 88vw;
+  margin: auto;
+  max-width: 1300px;
+}
+
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: #f2f2f3;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: scroll 30s linear infinite;
+}
+
+.marquee-logo {
+  width: 80px;
+  margin: 0 40px;
+  height: 40px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-content.paused {
+  animation-play-state: paused;
+}
+
+
+@media screen and (max-width:400px) {
+  
+.marquee-logo {
+  width: 60px;
+  margin: 0 20px;
+  height: 30px;
+}
+}

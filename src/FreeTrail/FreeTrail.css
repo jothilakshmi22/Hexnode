@@ -1,0 +1,107 @@
+.free-trail-container {
+  display: flex;
+  height: 100vh;
+}
+.free-trail-left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.5% 5%;
+}
+
+.free-trail-left h1 {
+  font-size: 36px;
+}
+.free-trail-right {
+  background-color: #dce2f3;
+  width: 30%;
+}
+
+.free-trail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free-trail-header img {
+  height: 25px;
+}
+.free-trail-header select {
+  border-radius: 2px;
+  border: 1px solid #ddddddab;
+  padding: 8px 5px;
+}
+
+.footer-toll-free {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  font-size: 15px;
+  color: grey;
+}
+.footer-toll-free .flag {
+  height: 17px;
+  width: 17px;
+  border-radius: 2px;
+}
+
+.footer-toll-free footer {
+  display: flex;
+  align-items: center;
+  gap: 0px 10px;
+}
+
+.free-trail-right {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  gap: 20px 0px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.free-trail-right img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.free-trail-right .name {
+  font-weight: bold;
+}
+
+.free-trail-inputBox {
+  width: 400px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 766px) {
+  .free-trail-inputBox,
+  .free-trail-button {
+    width: 100%;
+  }
+  .free-trail-inputBox {
+    margin-bottom: 10px;
+  }
+  .free-trail-left {
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .free-trail-right {
+    display: none;
+  }
+  .free-trail-left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .free-trail-left h1 {
+    font-size: 28px;
+  }
+}

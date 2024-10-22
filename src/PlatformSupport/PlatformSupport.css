@@ -1,0 +1,120 @@
+.platform-support {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.platform-support img {
+  height: 60px;
+  border: 1px solid rgb(128 128 128 / 17%);
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin: 10px;
+}
+
+.platform-support img:hover {
+  transition: transform 0.3s ease;
+  transform: translateY(-5px);
+}
+
+.platform-support .fire {
+  height: 56px;
+  padding: 10px 53px;
+}
+
+.platform-support .andriodTv {
+  height: 58px;
+  padding: 8px 11px;
+}
+
+.platform-support .ios {
+  height: 58px;
+  padding: 10px 58px;
+}
+
+.platform-support .appleTv {
+  height: 56px;
+  padding: 5px 49px;
+}
+
+@media screen and (min-width: 785px) and (max-width: 1023px) {
+  .platform-support .appleTv {
+    height: 56px;
+    padding: 5px 44px;
+  }
+  .platform-support .andriodTv {
+    height: 58px;
+    padding: 8px 15px;
+  }
+  .platform-support .fire {
+    height: 56px;
+    padding: 10px 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .platform-support img {
+    margin: 10px 40px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .platform-support img {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .platform-support img {
+    height: 50px;
+
+    padding: 10px 35px;
+  }
+
+  .platform-support .appleTv {
+    height: 48px;
+    padding: 7px 33px;
+  }
+
+  .platform-support .fire {
+    height: 48px;
+    padding: 10px 35px;
+  }
+
+  .platform-support .andriodTv {
+    height: 44px;
+    padding: 8px 11px;
+  }
+  .platform-support .ios {
+    height: 46px;
+    padding: 12px 44px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1160px) {
+  .platform-support img {
+    height: 52px;
+    padding: 10px 50px;
+    margin: 0;
+  }
+
+  .platform-support .ios {
+    height: 53px;
+    padding: 10px 50px;
+  }
+
+  .platform-support .andriodTv {
+    height: 53px;
+    padding: 8px 11px;
+  }
+
+  .platform-support .appleTv {
+    height: 53px;
+    padding: 5px 42px;
+  }
+
+  .platform-support .fire {
+    height: 53px;
+    padding: 10px 53px;
+  }
+}

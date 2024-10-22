@@ -1,0 +1,141 @@
+.carousel-icon {
+  cursor: pointer;
+  font-size: 29px;
+  padding: 11px 12px 5px 12px;
+  background-color: white;
+  color: grey;
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+.carousel-icon:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.carousel-content {
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  margin: 0px 20px;
+}
+.carousel-content img {
+  width: 40%;
+  height: 310px;
+  border-radius: 15px 0px 0px 15px;
+}
+.carousel-content div {
+  padding: 40px;
+  box-sizing: border-box;
+}
+.carousel-content h2 {
+  border-bottom: 1px solid rgb(128 128 128 / 11%);
+  padding-bottom: 20px;
+}
+
+.carousel-content .author-name {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.carousel-content p {
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.936);
+  line-height: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .carousel-small-container .carousel-content {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .carousel-content p {
+    font-size: 12px;
+  }
+
+  .carousel-content .author-name {
+    font-size: 14px;
+  }
+  .carousel-content h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-small-container .carousel-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+  }
+  .carousel-small-container img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 60%;
+  }
+
+  .carousel-content div {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .carousel-container {
+    display: none;
+  }
+
+  .carousel-small-container {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0px;
+    width: 90vw;
+    margin: auto;
+    max-width: 1200px;
+    padding: 30px 0px;
+  }
+  .carousel-button {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .carousel-content img {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .carousel-container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel-container {
+    display: block;
+    padding: 60px 0px;
+  }
+  .carousel-small-container {
+    display: none;
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #f2f2f3;
+    border-radius: 8px;
+    width: 75vw;
+    margin: auto;
+    max-width: 1300px;
+  }
+}

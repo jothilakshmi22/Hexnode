@@ -1,0 +1,13 @@
+.sign-up-form {
+  margin: 20px 0px;
+  display: flex;
+  gap: 0px 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0px;
+  }
+}

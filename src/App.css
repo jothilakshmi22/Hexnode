@@ -1,0 +1,189 @@
+.button {
+  color: white;
+  white-space: nowrap;
+  background-color: #dd0735;
+  border-radius: 3px;
+  padding: 13px 20px;
+  border: none;
+  font-size: 17px;
+  /* min-width: 180px; */
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.84, -0.18, 0.31, 1.26);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #bb022a;
+}
+
+.email-inputBox {
+  border-radius: 3px;
+  padding: 0 10px;
+  width: 280px;
+  border: none;
+  outline: none;
+  line-height: normal;
+  height: 50px;
+  border: 1px solid #ddddddab;
+}
+.email-inputBox::placeholder {
+  color: rgb(203, 199, 199);
+  font-size: 16px;
+}
+
+.container-width {
+  width: 88vw;
+  margin: auto;
+  max-width: 1300px;
+}
+
+/* Tab */
+.tab-container {
+  background-color: white;
+  padding: 120px 0;
+}
+.container-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+/* Slider accordion  */
+.sliding-accordion-container {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+/* Carousels */
+.caruosels-wrapper {
+  background-color: #f2f2f3;
+}
+
+.carousels {
+  width: 100%;
+}
+
+/* Marquee */
+.marquee-wrapper {
+  background-color: #f2f2f3;
+  padding: 20px 0;
+}
+
+/* Platform support */
+.platform-support-container {
+  background-color: white;
+}
+.platform-heading-padding {
+  padding-bottom: 40px;
+}
+
+/* Sign up */
+.sign-up-wrapper {
+  background-color: #020a19;
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.sign-up-container h1 {
+  font-size: 42px;
+  color: #fff;
+}
+
+.sign-up-container p {
+  color: grey;
+}
+.sign-up-container span {
+  color: #dd0735;
+}
+
+
+@media screen and (max-width:393px) {
+  .sign-up-container p {
+    display: flex;
+    flex-direction: column;
+    gap: 7px 0
+  }
+}
+
+@media screen and (min-width: 655px) {
+  .max {
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .sliding-accordion-container {
+    padding-bottom: 40px;
+  }
+  .caruosels-wrapper {
+    padding: 60px 0 50px 0;
+  }
+
+  .platform-support-container {
+    padding: 60px 0;
+  }
+
+  .tab-container {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .sliding-accordion-container {
+    padding-bottom: 100px;
+  }
+
+  .caruosels-wrapper {
+    padding: 120px 0 100px 0;
+  }
+
+  .platform-support-container {
+    padding: 120px 0;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .sign-up-container {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .email-inputBox {
+    height: 45px;
+    width: 350px;
+  }
+  button {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container-title {
+    font-size: 32px;
+  }
+  .sign-up-container h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .email-inputBox,
+  button {
+    width: 100%;
+  }
+  .button {
+    white-space: wrap;
+  }
+  .sign-up-form{
+    width: 100%;
+  }
+}
