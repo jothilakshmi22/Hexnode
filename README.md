@@ -5,7 +5,7 @@ You can view the live project here: https://monumental-sprite-9ddb45.netlify.app
 
 ## Description
 
-This is a fully responsive website built with React. The project utilizes modern CSS features such as Flexbox and media queries to ensure a seamless user experience across various devices.
+This is a **fully responsive website** built with React. The project utilizes modern CSS features such as Flexbox and media queries to ensure a seamless user experience across various devices.
 
 ## Features
 
@@ -28,9 +28,7 @@ This is a fully responsive website built with React. The project utilizes modern
 All images and assets used in the project are located in the assets folder.
 
 ## Installation
-
 To get started with the project, clone the repository and install the necessary dependencies:
-
 
 git clone <repository-url>
 cd <project-folder>
